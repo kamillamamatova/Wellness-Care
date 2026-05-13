@@ -82,9 +82,10 @@ img {
 }
 
 .brand img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
+  width: 181px;
+  height: auto;
+  margin-left: -47px;
+  margin-top: 0.1px;
 }
 
 .nav-links {
