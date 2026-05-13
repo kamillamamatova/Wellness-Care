@@ -46,7 +46,7 @@ img {
 
 .hero {
   position: relative;
-  height: min(48vw, 710px);
+  height: min(68vw, 760px);
   min-height: 560px;
   color: #fff;
   overflow: hidden;
