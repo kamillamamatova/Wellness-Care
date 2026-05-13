@@ -51,7 +51,7 @@ img {
   color: #fff;
   overflow: hidden;
   background-color: #d8d8dc;
-  box-shadow: 0 13px 19px rgba(0, 0, 0, .45);
+  box-shadow: 20px 15px 10px rgba(0, 0, 0, .5);
 }
 
 .hero-image {
@@ -115,16 +115,17 @@ img {
   position: relative;
   z-index: 1;
   width: min(820px, calc(100% - 560px));
-  margin-left: max(92px, calc((100vw - 1660px) / 2 + 20px));
-  padding-top: 265px;
+  margin-left: max(134px, calc((100vw - 1660px) / 2 + 20px));
+  padding-top: 158px;
 }
 
 .hero h1 {
   margin: 0 0 30px;
   color: #fff;
-  font-size: clamp(58px, 4.6vw, 86px);
-  font-weight: 800;
-  line-height: 1.05;
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(64px, 5.1vw, 100px);
+  font-weight: 550;
+  line-height: 0.90;
   text-transform: uppercase;
   text-shadow: 0 3px 7px rgba(0, 0, 0, .45);
   letter-spacing: 0;
