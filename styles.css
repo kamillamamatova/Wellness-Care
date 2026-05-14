@@ -161,6 +161,13 @@ img {
   cursor: pointer;
 }
 
+.button {
+  font-weight: 400;
+  font-size: 15px;
+  min-height: 38px;
+  padding: 7px 20px;
+}
+
 .socials {
   display: flex;
   gap: 23px;
