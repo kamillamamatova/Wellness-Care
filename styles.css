@@ -172,14 +172,46 @@ img {
 
 .socials {
   display: flex;
-  gap: 23px;
-  margin-top: 6px;
-  font-size: 21px;
-  font-weight: 800;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
 }
 
 .socials a {
-  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  color: #fff;
+  transition: opacity .2s ease, transform .2s ease;
+}
+
+.socials a:hover {
+  opacity: .78;
+  transform: translateY(-1px);
+}
+
+.socials svg {
+  display: block;
+  width: 31px;
+  height: 31px;
+  fill: currentColor;
+}
+
+.socials a:nth-child(2) svg {
+  width: 36px;
+  height: 36px;
+}
+
+.socials a:nth-child(3) svg {
+  width: 37px;
+  height: 37px;
+}
+
+.socials a:nth-child(4) svg {
+  width: 33px;
+  height: 33px;
 }
 
 .split {
