@@ -397,20 +397,24 @@ footer h2 {
   line-height: 1.75;
 }
 
+.assessment-copy p:nth-of-type(1) {
+  margin-bottom: 20px;
+}
+
 .assessment-copy p:nth-of-type(2) {
-  line-height: 1.9;
+  line-height: 1.8;
 }
 
 .assessment-copy .call-label {
-  margin-top: 70px;
+  margin-top: 68px;
   margin-bottom: 10px;
 }
 
 .phone {
   color: var(--blue);
-  font-size: 30px !important;
+  font-size: 25px !important;
   font-weight: 800;
-  line-height: 1.35 !important;
+  line-height: 0.8 !important;
 }
 
 .contact-form {
