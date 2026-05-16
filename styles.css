@@ -331,6 +331,7 @@ footer h2 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   background: #fff;
+  margin-top: 52px;
 }
 
 .service-card {
