@@ -217,7 +217,7 @@ img {
 .split {
   display: grid;
   grid-template-columns: minmax(320px, 590px) minmax(360px, 1fr);
-  gap: 40px;
+  gap: 8px;
   align-items: start;
   max-width: 1250px;
   margin: 0 auto;
@@ -230,7 +230,7 @@ img {
 
 .intro-copy {
   display: grid;
-  gap: 40px;
+  gap: 85px;
   padding-top: 9px;
 }
 
@@ -266,6 +266,8 @@ footer h2 {
 
 .intro {
   padding-top: 104px;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .why h2 {
