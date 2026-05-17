@@ -332,8 +332,8 @@ footer h2 {
 }
 
 .services-strip {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   background: #fff;
   margin-top: 52px;
 }
@@ -341,6 +341,10 @@ footer h2 {
 .service-card {
   position: relative;
   display: flex;
+  flex: 0 0 25%;
+  width: 25%;
+  max-width: 25%;
+  min-width: 0;
   min-height: clamp(560px, 43.5vw, 890px);
   flex-direction: column;
   justify-content: flex-end;
@@ -353,10 +357,27 @@ footer h2 {
   position: absolute;
   inset: 0;
   width: 100%;
+  max-width: none;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: 28% center;
   transition: transform .35s ease;
+}
+
+.service-card:nth-child(1) .service-card-img {
+  object-position: 18% center;
+}
+
+.service-card:nth-child(2) .service-card-img {
+  object-position: 30% center;
+}
+
+.service-card:nth-child(3) .service-card-img {
+  object-position: 34% center;
+}
+
+.service-card:nth-child(4) .service-card-img {
+  object-position: 24% center;
 }
 
 .service-card::before {
@@ -385,19 +406,19 @@ footer h2 {
   margin: 0 0 28px;
   color: #fff;
   text-align: center;
-  font-size: clamp(36px, 2.05vw, 42px);
+  font-size: clamp(30px, 1.7vw, 36px);
   font-weight: 800;
   line-height: 1.34;
 }
 
 .service-card p {
   margin: 0 0 clamp(52px, 3.45vw, 72px);
-  font-size: clamp(20px, 1.17vw, 24px);
+  font-size: clamp(16px, 0.95vw, 20px);
   line-height: 1.75;
 }
 
 .service-card a {
-  font-size: clamp(20px, 1.17vw, 24px);
+  font-size: clamp(16px, 0.95vw, 20px);
   font-weight: 800;
 }
 
@@ -668,7 +689,13 @@ footer a {
   }
 
   .services-strip {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+  }
+
+  .service-card {
+    flex-basis: 50%;
+    width: 50%;
+    max-width: 50%;
   }
 
   .contact-form {
@@ -766,9 +793,14 @@ footer a {
   }
 
   .reason-grid,
-  .services-strip,
   .footer-grid {
     grid-template-columns: 1fr;
+  }
+
+  .service-card {
+    flex-basis: 100%;
+    width: 100%;
+    max-width: 100%;
   }
 
   .lead {
