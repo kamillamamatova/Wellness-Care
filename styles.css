@@ -259,16 +259,16 @@ footer h2 {
 
 .why {
   padding-top: 20px;
-  margin-top: 165px;
+  margin-top: 185px;
 }
 
 .why h2 {
   margin: 0 0 25px;
-  color: var(--heading);
-  font-family: 'Work Sans', sans-serif;
-  font-size: clamp(35px, 3.2vw, 45px);
+  color: #4c515a;
+  font-family: 'DM Sans', sans-serif;
+  font-size: clamp(33px, 3.1vw, 42px);
   font-weight: 600;
-  line-height: 1;
+  line-height: 1.2;
   letter-spacing: 0.08em;
 }
 
@@ -282,10 +282,12 @@ footer h2 {
 }
 
 .lead {
-  max-width: 1040px;
+  max-width: 800px;
   margin: 0 auto 85px;
   color: #565a64;
-  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 320;
   line-height: 1.75;
 }
 
