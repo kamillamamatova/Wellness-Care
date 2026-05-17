@@ -422,6 +422,11 @@ footer h2 {
 .service-card a {
   font-size: clamp(16px, 0.95vw, 20px);
   font-weight: 800;
+  transition: color .2s ease;
+}
+
+.service-card a:hover {
+  color: var(--blue);
 }
 
 .assessment {
