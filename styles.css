@@ -294,13 +294,14 @@ footer h2 {
 .reason-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 56px 56px;
+  gap: 30px 30px;
   text-align: left;
+  padding: 0 80px;
 }
 
 .reason-card {
-  min-height: 330px;
-  padding: 46px 46px 38px;
+  min-height: 260px;
+  padding: 32px 32px 28px;
   border: 1px solid #e7edf6;
   border-radius: 4px;
   background: #fff;
