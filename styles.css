@@ -415,6 +415,7 @@ footer h2 {
   margin: 0 0 clamp(52px, 3.45vw, 72px);
   font-size: clamp(16px, 0.95vw, 20px);
   line-height: 1.75;
+  min-height: 130px;
 }
 
 .service-card a {
