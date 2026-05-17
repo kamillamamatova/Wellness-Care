@@ -589,7 +589,7 @@ footer h2 {
 
 .blue-cta .container {
   max-width: 860px;
-  margin-left: max(80px, calc((100vw - 1600px) / 2));
+  margin-left: max(160px, calc((100vw - 1600px) / 2));
 }
 
 .blue-cta h2 {
