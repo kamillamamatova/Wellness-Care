@@ -218,8 +218,8 @@ img {
   display: grid;
   grid-template-columns: minmax(320px, 590px) minmax(360px, 1fr);
   gap: 40px;
-  align-items: center;
-  max-width: 1200px;
+  align-items: start;
+  max-width: 1250px;
   margin: 0 auto;
 }
 
@@ -262,6 +262,10 @@ footer h2 {
 .why {
   padding-top: 20px;
   margin-top: 185px;
+}
+
+.intro {
+  padding-top: 104px;
 }
 
 .why h2 {
