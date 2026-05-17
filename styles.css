@@ -216,29 +216,31 @@ img {
 
 .split {
   display: grid;
-  grid-template-columns: minmax(360px, 640px) minmax(420px, 1fr);
-  gap: 105px;
+  grid-template-columns: minmax(320px, 590px) minmax(360px, 1fr);
+  gap: 40px;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .care-photo {
   width: 100%;
-  max-width: 640px;
+  max-width: 500px;
 }
 
 .intro-copy {
   display: grid;
-  gap: 72px;
+  gap: 40px;
   padding-top: 9px;
 }
 
 .intro h2,
 .blue-cta h2,
 footer h2 {
-  margin: 0 0 25px;
+  margin: 0 0 32px;
   color: var(--heading);
-  font-size: 27px;
-  font-weight: 800;
+  font-size: 19px;
+  font-weight: 600;
   line-height: 1.2;
 }
 
@@ -249,7 +251,7 @@ footer h2 {
 .intro p {
   margin: 0;
   color: #5b5f69;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
