@@ -582,25 +582,26 @@ footer h2 {
 }
 
 .blue-cta {
-  padding: 88px 0 130px;
+  padding: 105px 0 130px;
   color: #fff;
   background: var(--blue);
 }
 
 .blue-cta .container {
   max-width: 860px;
-  margin-left: max(160px, calc((100vw - 1600px) / 2));
+  margin-left: max(120px, calc((100vw - 1600px) / 2));
 }
 
 .blue-cta h2 {
   color: #fff;
-  font-size: 28px;
+  font-size: 32px;
 }
 
 .blue-cta p {
   margin: 0 0 25px;
-  font-size: 16px;
+  font-size: 15.5px;
   line-height: 1.8;
+  max-width: 560px;
 }
 
 .contact-link {
