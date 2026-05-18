@@ -595,6 +595,7 @@ footer h2 {
 .blue-cta h2 {
   color: #fff;
   font-size: 32px;
+  margin-bottom: 27px;
 }
 
 .blue-cta p {
@@ -608,10 +609,19 @@ footer h2 {
   display: inline-flex;
   gap: 18px;
   align-items: center;
-  margin-top: 16px;
+  margin-top: 14px;
+  margin-left: 18px;
   color: #fff;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 800;
+  padding: 8px 20px;
+  border-radius: 999px;
+  transition: background .2s ease, color .2s ease;
+}
+
+.contact-link:hover {
+  background: #fff;
+  color: var(--blue);
 }
 
 footer {
