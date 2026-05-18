@@ -582,7 +582,7 @@ footer h2 {
 }
 
 .blue-cta {
-  padding: 105px 0 130px;
+  padding: 105px 0 113px;
   color: #fff;
   background: var(--blue);
 }
@@ -613,10 +613,11 @@ footer h2 {
   margin-left: 18px;
   color: #fff;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 500;
   padding: 8px 20px;
   border-radius: 999px;
   transition: background .2s ease, color .2s ease;
+  letter-spacing: 0.02em;
 }
 
 .contact-link:hover {
