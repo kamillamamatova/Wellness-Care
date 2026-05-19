@@ -634,7 +634,7 @@ footer {
   display: grid;
   grid-template-columns: 1.35fr 1.25fr .85fr 1.35fr;
   gap: 64px;
-  padding: 90px 199px 228px;
+  padding: 90px 199px 166px;
 }
 
 footer img {
@@ -657,7 +657,10 @@ footer a {
 }
 
 .footer-grid > div:first-child p {
-  max-width: 250px;
+  max-width: 270px;
+  font-size: 16px;
+  font-weight: 250;
+  line-height: 1.9;
 }
 
 .copyright {
