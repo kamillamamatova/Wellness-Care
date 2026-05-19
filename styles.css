@@ -44,6 +44,20 @@ img {
   padding: 130px 0;
 }
 
+.page-header {
+  background: var(--dark);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .35);
+}
+
+.page-header .topbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.page-header .brand img {
+  filter: brightness(10);
+}
+
 .hero {
   position: relative;
   height: min(68vw, 760px);
