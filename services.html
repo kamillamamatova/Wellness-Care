@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Services - Quality Wellness Care</title>
+    <title>Services - Priority Wellness Care</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&family=DM+Sans:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body class="services-layout">
     <header class="page-header">
       <nav class="topbar" aria-label="Primary navigation">
-        <a class="brand" href="index.html" aria-label="Quality Wellness Care home">
-          <img src="assets/placeholderlogopwc.png" alt="Quality Wellness Care">
+        <a class="brand" href="index.html" aria-label="Priority Wellness Care home">
+          <img src="assets/placeholderlogopwc.png" alt="Priority Wellness Care">
         </a>
         <button class="menu-button" type="button" aria-label="Open menu">☰</button>
         <div class="nav-links">
@@ -25,87 +25,98 @@
       </nav>
     </header>
 
-    <main>
-      <section class="services-strip" aria-label="Home care services">
-        <article class="service-card">
-          <img class="service-card-img" src="assets/personal-care.png" alt="">
-          <div>
-            <h2>Personal Care<br>Services</h2>
-            <p>Clients enjoy safety and independence at home. Families enjoy piece of mind know that their loved one is receiving first-rate care.</p>
-          </div>
-          <a href="contact.html">Learn More</a>
-        </article>
-        <article class="service-card">
-          <img class="service-card-img" src="assets/homemaker.png" alt="">
-          <div>
-            <h2>Homemaker<br>Services</h2>
-            <p>Routine household assistance is provided in a professional and efficient manner to ensure cleanliness and sense of order.</p>
-          </div>
-          <a href="contact.html">Learn More</a>
-        </article>
-        <article class="service-card">
-          <img class="service-card-img" src="assets/private-residence.png" alt="">
-          <div>
-            <h2>Private Residence<br>Services</h2>
-            <p><b>Quality Wellness Care</b> can help maintain their safety and independence from the comfort of his/her home. Experience has taught us that every client and family have unique needs.</p>
-          </div>
-          <a href="contact.html">Learn More</a>
-        </article>
-        <article class="service-card">
-          <img class="service-card-img" src="assets/assisted-living.png" alt="">
-          <div>
-            <h2>Assisted Living<br>Service</h2>
-            <p>Wherever your loved one calls home <b>Quality Wellness Care</b> can accommodate any living situation. Independence and piece of mind can be your with our skilled and compassionate care givers.</p>
-          </div>
-          <a href="contact.html">Learn More</a>
-        </article>
+    <main class="services-page">
+      <section class="services-hero" aria-label="Services">
+        <h1>Services</h1>
       </section>
 
-      <section class="why section">
+      <section class="services-intro">
         <div class="container centered">
-          <h2>Why Choose Us</h2>
-          <p class="lead">We hand pick only those experienced individuals who display the spirit required and the attitude necessary to effectively help our clients. Hiring an independent caregiver may be a less costly alternative, but leaves the client with many unwanted responsibilities. It is vitally important for our clients to not only receive top-notch care, but to receive that care from a new-found friend.</p>
-          <div class="reason-grid">
-            <article class="reason-card">
-              <span class="icon">♥</span>
-              <h3>Qualified Professionals</h3>
-              <p>We are guided by our passionate commitment to help achieve the highest quality of life.</p>
-            </article>
-            <article class="reason-card">
-              <span class="icon">✹</span>
-              <h3>Integrity</h3>
-              <p>Encompassing honesty, keeping our promise, and consistently adhering to principles of professionalism.</p>
-            </article>
-            <article class="reason-card">
-              <span class="icon">✓</span>
-              <h3>Cooperation</h3>
-              <p>Working with families and individuals to achieve independence and piece of mind.</p>
-            </article>
-            <article class="reason-card">
-              <span class="icon">↔</span>
-              <h3>Trust</h3>
-              <p>We believe in adhering to the highest standard, which is the principle of measuring quality care.</p>
-            </article>
-            <article class="reason-card">
-              <span class="icon">▣</span>
-              <h3>Client Focus</h3>
-              <p>Consistency, Flexibility, and Comfort are key to creating an effective home care plan for your family member.</p>
-            </article>
-            <article class="reason-card">
-              <span class="icon">⌁</span>
-              <h3>Licenses &amp; Insurance</h3>
-              <p>We are fully license and insured, and compliant with all state regulations to assist your loved one.</p>
-            </article>
-          </div>
+          <h2>Assisted Care Services</h2>
+          <p>Our goal is to promote the independence of your loved. With our assisted care services, we tailor to their needs that would allow them to stay in the comfort of their living situation.</p>
         </div>
       </section>
 
-      <section class="blue-cta">
+      <section class="service-detail-list" aria-label="Service details">
+        <article class="service-detail">
+          <div class="service-banner service-banner-personal">
+            <h2>Personal Care Services</h2>
+          </div>
+          <div class="service-detail-content">
+            <p>Clients enjoy safety and independence at home. Families enjoy peace of mind knowing that their loved one is receiving first-rate care. Our caregivers assist with tasks, such as bathing, dressing and medication reminders, doing a thorough job while honoring an individual's dignity.</p>
+            <ul class="service-checks">
+              <li>Personalized Needs</li>
+              <li>Meal Prep</li>
+              <li>Medication Reminders</li>
+            </ul>
+            <ul class="service-checks">
+              <li>Maintain Hygiene for Health</li>
+              <li>Peace of Mind</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-detail service-detail-compact">
+          <div class="service-banner service-banner-medical">
+            <h2>Homemaker Services</h2>
+          </div>
+          <div class="service-detail-content">
+            <p>Routine household assistance is provided in a professional and efficient manner to ensure cleanliness and sense of order. In addition to light housekeeping duties, our caregivers are trusted companions. Their visits become anticipated events that seniors look forward to.</p>
+            <ul class="service-checks">
+              <li>Life's More Convenient</li>
+              <li>Makes Life Safer</li>
+              <li>Remain in Home</li>
+            </ul>
+            <ul class="service-checks">
+              <li>Open Door for Further Care</li>
+              <li>Family Centered Care</li>
+              <li>Individual Attention</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-detail">
+          <div class="service-banner service-banner-private">
+            <h2>Private Residence Services</h2>
+          </div>
+          <div class="service-detail-content">
+            <p>With <strong>Priority Wellness Care</strong>, your level of care and needs are met through a schedule you control. To maintain continuity of care, our scheduling team coordinates the smallest combination of caregivers to serve a client. Our 24/7 phone assistance meets any need that arises. Whatever you or your loved one desire, we will personalize our services to help.</p>
+            <ul class="service-checks">
+              <li>Consistent Schedule</li>
+              <li>Professional Approach</li>
+              <li>Best Caregivers</li>
+            </ul>
+            <ul class="service-checks">
+              <li>Compatibility Guaranteed</li>
+              <li>Long Term Care</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="service-detail">
+          <div class="service-banner service-banner-medical">
+            <h2>Assisted Living Services</h2>
+          </div>
+          <div class="service-detail-content">
+            <p>Assisted living is a type of housing designed for people who need various levels of medical and personal care. Living spaces can be individual rooms, apartments, or shared quarters. The facilities generally provide a home-like setting and are physically designed to promote the resident's independence. Services are offered to assist residents with daily living.</p>
+            <ul class="service-checks">
+              <li>Personalized care</li>
+              <li>Social Activates and Engagement</li>
+              <li>Comfortable Setting</li>
+            </ul>
+            <ul class="service-checks">
+              <li>Independence</li>
+              <li>More freetime</li>
+              <li>Peace of mind</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="blue-cta services-cta">
         <div class="container">
           <h2>Assisted Care Assessment</h2>
-          <p>For more information, or to schedule an assisted care assessment, Contact Us, or Give us a call.</p>
-          <p>PH:&nbsp; </p>
-          <p>FAX: </p>
+          <p>For more information, or to schedule a assisted care assessment, please complete the online questionnaire, or please give us a call.</p>
           <a href="contact.html" class="contact-link">▣ Contact Us Now</a>
         </div>
       </section>
@@ -114,7 +125,7 @@
     <footer>
       <div class="container footer-grid">
         <div>
-          <img src="assets/placeholderlogopwc.png" alt="Quality Wellness Care">
+          <img src="assets/placeholderlogopwc.png" alt="Priority Wellness Care">
           <p>We provide home care services for elderly or disabled clients. Consistently delivered by friendly, compatible, attentive, skilled, and compassionate caregivers.</p>
           <div class="footer-socials" aria-label="Social links">
             <a href="#" aria-label="Facebook">
@@ -141,10 +152,10 @@
         </div>
         <div>
           <h2>Contact Info</h2>
-          <p>1920 East Hallandale Beach Boulevard, Hallandale FL. 33009</p>
-          <p>Phone: </p>
-          <p>Fax: </p>
-          <p>contact@qualitywellnesscare.com</p>
+          <p>6245 N. Federal Highway Ft. Lauderdale FL. 33308</p>
+          <p>Phone (561) 847-3360</p>
+          <p>Fax: (561) 847-3337</p>
+          <p>contact@prioritywellcare.com</p>
         </div>
         <div>
           <h2>Quick Links</h2>
@@ -162,8 +173,8 @@
         </div>
       </div>
       <div class="copyright">
-        <span>Copyright © 2026 Quality Wellness Care</span>
-        <span>Powered by Quality Wellness Care</span>
+        <span>Copyright © 2026 Priority Wellness Care</span>
+        <span>Powered by Priority Wellness Care</span>
       </div>
     </footer>
   </body>
