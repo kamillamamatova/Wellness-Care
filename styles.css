@@ -627,14 +627,14 @@ footer h2 {
 
 footer {
   color: rgba(255, 255, 255, .28);
-  background: #030c30;
+  background: #010929;
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: 1.35fr 1.25fr .85fr 1.35fr;
   gap: 64px;
-  padding: 90px 80px 248px;
+  padding: 90px 199px 248px;
 }
 
 footer img {
