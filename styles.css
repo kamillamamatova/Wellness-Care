@@ -627,7 +627,7 @@ footer h2 {
 
 footer {
   color: rgba(255, 255, 255, .28);
-  background: var(--dark);
+  background: #030c30;
 }
 
 .footer-grid {
