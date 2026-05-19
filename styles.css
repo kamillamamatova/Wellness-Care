@@ -1,5 +1,5 @@
 :root {
-  --blue: #398ee3;
+  --blue: #248bf3;
   --dark: #03071d;
   --text: #555964;
   --heading: #464952;
@@ -634,7 +634,7 @@ footer {
   display: grid;
   grid-template-columns: 1.35fr 1.25fr .85fr 1.35fr;
   gap: 64px;
-  padding: 90px 199px 166px;
+  padding: 90px 199px 124px;
 }
 
 footer img {
