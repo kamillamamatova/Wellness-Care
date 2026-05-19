@@ -634,7 +634,7 @@ footer {
   display: grid;
   grid-template-columns: 1.35fr 1.25fr .85fr 1.35fr;
   gap: 64px;
-  padding: 179px 80px 137px;
+  padding: 90px 80px 248px;
 }
 
 footer img {
