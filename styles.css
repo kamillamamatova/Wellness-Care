@@ -659,6 +659,32 @@ footer a {
   font-weight: 250;
 }
 
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.footer-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, .5);
+  transition: color .2s ease;
+}
+
+.footer-socials a:hover {
+  color: #fff;
+}
+
+.footer-socials svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
 .footer-grid > div:first-child p {
   max-width: 270px;
   font-size: 16px;
@@ -673,9 +699,9 @@ footer a {
   width: min(calc(100% - 80px), var(--max));
   margin: 0 auto;
   padding: 22px 196px;
-  border-top: 1px solid rgba(255, 255, 255, .08);
-  color: rgba(255, 255, 255, .34);
-  font-size: 14.5px;
+  border-top: none;
+  color: rgba(101, 101, 99);
+  font-size: 15px;
 }
 
 @media (max-width: 1200px) {
