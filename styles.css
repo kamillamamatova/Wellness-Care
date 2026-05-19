@@ -652,7 +652,7 @@ footer p,
 footer a {
   display: block;
   margin: 0 0 8px;
-  color: rgba(255, 255, 255, .28);
+  color: rgb(101, 101, 99);
   font-size: 15.5px;
   line-height: 1.55;
   letter-spacing: 0.02em;
