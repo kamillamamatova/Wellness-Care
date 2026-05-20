@@ -734,6 +734,7 @@ footer h2 {
 }
 
 .service-banner {
+  position: relative;
   display: grid;
   place-items: start center;
   min-height: 470px;
@@ -746,6 +747,8 @@ footer h2 {
 }
 
 .service-banner h2 {
+  position: relative;
+  z-index: 1;
   margin: 0;
   color: #7bc0e7;
   text-align: center;
@@ -758,9 +761,10 @@ footer h2 {
 
 .service-banner-personal {
   background-image: url("assets/services-personal-banner.png");
-  background-position: center 32%;
-  filter: brightness(1.5);
-  max-height: 320px;
+  background-position: center 14%;
+  width: calc(100% - 161px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .service-banner-medical {
