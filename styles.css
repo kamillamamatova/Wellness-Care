@@ -700,7 +700,7 @@ footer h2 {
 
 .services-intro h2 {
   margin: 0 0 30px;
-  color: #50525c;
+  color: #484b53;
   font-family: 'Work Sans', sans-serif;
   font-size: clamp(39px, 3.2vw, 62px);
   font-weight: 550;
@@ -709,10 +709,10 @@ footer h2 {
 }
 
 .services-intro p {
-  max-width: 930px;
+  max-width: 760px;
   margin: 0 auto;
   color: #565b66;
-  font-size: 20px;
+  font-size: 15.5px;
   line-height: 1.8;
 }
 
