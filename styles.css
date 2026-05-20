@@ -790,8 +790,9 @@ footer h2 {
 
 .service-detail-content {
   display: grid;
-  grid-template-columns: minmax(320px, 1fr) minmax(210px, 300px) minmax(210px, 340px);
-  gap: 72px;
+  grid-template-columns: minmax(320px, .86fr) minmax(190px, 260px) minmax(190px, 280px);
+  column-gap: 34px;
+  row-gap: 72px;
   align-items: start;
   margin-top: 40px;
 }
@@ -814,10 +815,10 @@ footer h2 {
 
 .service-checks li {
   position: relative;
-  min-height: 27px;
-  padding-left: 47px;
+  min-height: 22px;
+  padding-left: 33px;
   color: #555a64;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.35;
 }
 
@@ -828,12 +829,12 @@ footer h2 {
   top: 1px;
   display: grid;
   place-items: center;
-  width: 21px;
-  height: 21px;
+  width: 17px;
+  height: 17px;
   border-radius: 50%;
   color: #fff;
   background: #378fea;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 800;
   line-height: 1;
 }
