@@ -773,7 +773,10 @@ footer h2 {
 }
 
 .service-detail:first-child .service-detail-content p {
+  font-size: 15.5px;
   padding: 0 80px;
+  width: 620px;
+  line-height: 1.95;
 }
 
 .service-banner-medical {
