@@ -659,7 +659,13 @@ footer h2 {
 }
 
 .services-layout .nav-links {
-  margin-top: 64px;
+  margin-top: 41px;
+  margin-right: -44px;
+}
+
+.services-layout .nav-links a {
+  padding: 15px 17px;
+  font-size: 14.9px;
 }
 
 .services-page {
