@@ -673,7 +673,7 @@ footer h2 {
   min-height: clamp(460px, 28.5vw, 580px);
   padding: 170px 24px 90px;
   color: #fff;
-  background-image: linear-gradient(rgba(5, 11, 24, .16), rgba(5, 11, 24, .16)), url("assets/services-hero-original.jpg");
+  background-image: url("assets/services-hero-original.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -751,8 +751,9 @@ footer h2 {
 }
 
 .service-banner-personal {
-  background-image: linear-gradient(rgba(255, 255, 255, .36), rgba(255, 255, 255, .36)), url("assets/services-personal-banner.png");
+  background-image: url("assets/services-personal-banner.png");
   background-position: center 32%;
+  filter: brightness(1.5);
 }
 
 .service-banner-medical {
