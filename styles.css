@@ -767,6 +767,15 @@ footer h2 {
   margin-right: auto;
 }
 
+.service-banner-personal h2 {
+  font-weight: 560;
+  transform: translateY(-31px);
+}
+
+.service-detail:first-child .service-detail-content p {
+  padding: 0 80px;
+}
+
 .service-banner-medical {
   background-image: linear-gradient(rgba(10, 37, 51, .42), rgba(10, 37, 51, .42)), url("assets/services-medical-banner.png");
 }
