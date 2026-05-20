@@ -695,15 +695,15 @@ footer h2 {
 }
 
 .services-intro {
-  padding: 104px 40px 78px;
+  padding: 150px 40px 78px;
 }
 
 .services-intro h2 {
   margin: 0 0 30px;
   color: #50525c;
   font-family: 'Work Sans', sans-serif;
-  font-size: clamp(42px, 3.4vw, 66px);
-  font-weight: 650;
+  font-size: clamp(39px, 3.2vw, 62px);
+  font-weight: 550;
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
