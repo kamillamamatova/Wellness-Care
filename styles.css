@@ -729,6 +729,10 @@ footer h2 {
   margin-bottom: 104px;
 }
 
+.service-detail:first-child {
+  margin-bottom: 118px;
+}
+
 .service-detail-compact {
   margin-bottom: 40px;
 }
