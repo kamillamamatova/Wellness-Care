@@ -794,6 +794,11 @@ footer h2 {
   margin-right: auto;
 }
 
+.service-detail:nth-child(2) .service-banner-medical h2 {
+  font-weight: 560;
+  transform: translateY(-34px);
+}
+
 .service-banner-private {
   background-image: linear-gradient(rgba(255, 255, 255, .43), rgba(255, 255, 255, .43)), url("assets/services-private-banner.jpg");
   background-position: center 42%;
