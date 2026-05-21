@@ -788,6 +788,7 @@ footer h2 {
 }
 
 .service-detail:nth-child(2) .service-banner-medical {
+  background-image: linear-gradient(rgba(10, 37, 51, .06), rgba(10, 37, 51, .06)), url("assets/services-medical-banner.png");
   width: calc(100% - 161px);
   margin-left: auto;
   margin-right: auto;
