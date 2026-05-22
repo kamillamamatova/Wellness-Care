@@ -813,6 +813,9 @@ footer h2 {
 .service-banner-private {
   background-image: linear-gradient(rgba(255, 255, 255, .43), rgba(255, 255, 255, .43)), url("assets/services-private-banner.jpg");
   background-position: center 42%;
+  width: calc(100% - 161px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .service-detail-content {
