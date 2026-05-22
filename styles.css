@@ -805,6 +805,13 @@ footer h2 {
   line-height: 1.95;
 }
 
+.service-detail:nth-child(4) .service-detail-content p {
+  font-size: 15.5px;
+  padding: 0 80px;
+  width: 720px;
+  line-height: 1.95;
+}
+
 .service-banner-medical {
   background-image: linear-gradient(rgba(10, 37, 51, .42), rgba(10, 37, 51, .42)), url("assets/services-medical-banner.png");
 }
@@ -849,8 +856,8 @@ footer h2 {
 
 .service-detail-content {
   display: grid;
-  grid-template-columns: minmax(320px, .86fr) minmax(190px, 260px) minmax(190px, 280px);
-  column-gap: 34px;
+  grid-template-columns: minmax(320px, .87fr) minmax(210px, 280px) minmax(190px, 280px);
+  column-gap: 15px;
   row-gap: 72px;
   align-items: start;
   margin-top: 40px;
@@ -877,7 +884,7 @@ footer h2 {
   min-height: 22px;
   padding-left: 33px;
   color: #555a64;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.35;
 }
 
@@ -1259,7 +1266,7 @@ footer a {
   .service-detail-content p,
   .service-checks li,
   .services-cta p {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .service-detail-list {
