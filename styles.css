@@ -818,6 +818,10 @@ footer h2 {
   margin-right: auto;
 }
 
+.service-banner-private h2 {
+  transform: translateY(-45px);
+}
+
 .service-detail-content {
   display: grid;
   grid-template-columns: minmax(320px, .86fr) minmax(190px, 260px) minmax(190px, 280px);
