@@ -794,6 +794,13 @@ footer h2 {
   line-height: 1.95;
 }
 
+.service-detail:nth-child(3) .service-detail-content p {
+  font-size: 15.5px;
+  padding: 0 80px;
+  width: 620px;
+  line-height: 1.95;
+}
+
 .service-banner-medical {
   background-image: linear-gradient(rgba(10, 37, 51, .42), rgba(10, 37, 51, .42)), url("assets/services-medical-banner.png");
 }
