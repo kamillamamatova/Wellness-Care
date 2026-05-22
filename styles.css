@@ -734,7 +734,11 @@ footer h2 {
 }
 
 .service-detail-compact {
-  margin-bottom: 40px;
+  margin-bottom: 360px;
+}
+
+.service-detail:nth-child(2) {
+  margin-bottom: 160px;
 }
 
 .service-banner {
@@ -783,6 +787,13 @@ footer h2 {
   line-height: 1.95;
 }
 
+.service-detail:nth-child(2) .service-detail-content p {
+  font-size: 15.5px;
+  padding: 0 80px;
+  width: 620px;
+  line-height: 1.95;
+}
+
 .service-banner-medical {
   background-image: linear-gradient(rgba(10, 37, 51, .42), rgba(10, 37, 51, .42)), url("assets/services-medical-banner.png");
 }
@@ -800,8 +811,15 @@ footer h2 {
 }
 
 .service-banner-private {
-  background-image: linear-gradient(rgba(255, 255, 255, .43), rgba(255, 255, 255, .43)), url("assets/services-private-banner.jpg");
+  background-image: url("assets/services-private-banner.jpg");
   background-position: center 42%;
+  width: calc(100% - 161px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-banner-private h2 {
+  transform: translateY(-45px);
 }
 
 .service-detail-content {
