@@ -932,7 +932,7 @@ footer {
   display: grid;
   grid-template-columns: 1.35fr 1.25fr .85fr 1.35fr;
   gap: 64px;
-  padding: 90px 199px 124px;
+  padding: 90px 90px 124px;
 }
 
 footer img {
@@ -996,7 +996,7 @@ footer a {
   gap: 20px;
   width: min(calc(100% - 80px), var(--max));
   margin: 0 auto;
-  padding: 22px 196px;
+  padding: 22px 90px;
   border-top: none;
   color: rgba(101, 101, 99);
   font-size: 15px;
