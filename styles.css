@@ -766,7 +766,7 @@ footer h2 {
   text-align: center;
   font-family: 'Work Sans', sans-serif;
   font-size: clamp(40px, 3.25vw, 64px);
-  font-weight: 650;
+  font-weight: 400;
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
@@ -958,26 +958,27 @@ footer h2 {
 
 .about-hero {
   position: relative;
-  min-height: clamp(560px, 41vw, 835px);
+  min-height: clamp(565px, 41.5vw, 842px);
   padding: 170px 40px 150px;
   background-color: #e8d6b8;
   background-image: url("assets/about-hero-original.jpg");
   background-position: center 36%;
-  background-size: 103% auto;
+  background-size: 107% auto;
   box-shadow: 23px 11px 10px 2px rgba(0, 0, 0, .45);
 }
 
 .about-hero h1 {
   max-width: min(calc(100% - 340px), 1660px);
   margin: 0 auto;
-  padding-top: 92px;
-  padding-right: 25px;
+  padding-top: 0;
+  padding-right: 0;
   color: #50535c;
   text-align: right;
   font-family: 'Work Sans', sans-serif;
-  font-size: clamp(58px, 5vw, 92px);
-  font-weight: 650;
-  line-height: 1;
+  font-size: clamp(48px, 4.2vw, 76px);
+  font-weight: 600;
+  line-height: 1.12;
+  transform: translate(62px, -22px);
 }
 
 .about-expert {
@@ -1291,14 +1292,15 @@ footer a {
   }
 
   .about-hero {
-    min-height: 560px;
+    min-height: 565px;
     background-position: center center;
     background-size: cover;
   }
 
   .about-hero h1 {
     max-width: calc(100% - 80px);
-    padding-top: 88px;
+    padding-top: 0;
+    transform: translate(14px, -14px);
   }
 
   .about-expert-grid {
@@ -1529,10 +1531,11 @@ footer a {
 
   .about-hero h1 {
     max-width: calc(100% - 34px);
-    padding-top: 70px;
+    padding-top: 0;
     padding-right: 0;
     text-align: right;
-    font-size: 48px;
+    font-size: 40px;
+    transform: translateX(0);
   }
 
   .about-expert {
