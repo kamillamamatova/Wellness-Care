@@ -596,7 +596,7 @@ footer h2 {
 }
 
 .blue-cta {
-  padding: 105px 0 113px;
+  padding: 112px 0 120px;
   color: #fff;
   background: var(--blue);
 }
@@ -608,7 +608,7 @@ footer h2 {
 
 .blue-cta h2 {
   color: #fff;
-  font-size: 32px;
+  font-size: 31px;
   margin-bottom: 27px;
 }
 
@@ -906,7 +906,11 @@ footer h2 {
 }
 
 .services-cta {
-  background: #367eac;
+  background: var(--blue);
+}
+
+.services-cta .container {
+  transform: translateY(10px);
 }
 
 .services-cta .container {
@@ -914,9 +918,9 @@ footer h2 {
 }
 
 .services-cta p {
-  max-width: 720px;
-  font-size: 20px;
-  line-height: 2.05;
+  max-width: 540px;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 footer {
