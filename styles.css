@@ -956,6 +956,10 @@ footer h2 {
   background: #fff;
 }
 
+.about-page .container {
+  width: min(calc(100% - 203px), var(--max));
+}
+
 .about-hero {
   position: relative;
   min-height: clamp(565px, 41.5vw, 842px);
@@ -992,7 +996,7 @@ footer h2 {
 }
 
 .about-expert {
-  padding: 145px 0 92px;
+  padding: 106px 0 92px;
 }
 
 .about-expert-grid {
@@ -1005,7 +1009,7 @@ footer h2 {
 
 .about-expert-grid > img {
   width: 100%;
-  max-width: 640px;
+  max-width: 480px;
   border-radius: 4px;
 }
 
@@ -1549,7 +1553,7 @@ footer a {
   }
 
   .about-expert {
-    padding: 80px 0 62px;
+    padding: 62px 0 62px;
   }
 
   .about-expert-copy h2 {
@@ -1583,5 +1587,9 @@ footer a {
   .about-value-card {
     min-height: 0;
     padding: 42px 34px;
+  }
+
+  .about-page .container {
+    width: min(calc(100% - 34px), var(--max));
   }
 }
