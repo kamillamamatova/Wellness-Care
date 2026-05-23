@@ -596,7 +596,7 @@ footer h2 {
 }
 
 .blue-cta {
-  padding: 105px 0 113px;
+  padding: 112px 0 120px;
   color: #fff;
   background: var(--blue);
 }
@@ -608,7 +608,7 @@ footer h2 {
 
 .blue-cta h2 {
   color: #fff;
-  font-size: 32px;
+  font-size: 31px;
   margin-bottom: 27px;
 }
 
@@ -717,7 +717,7 @@ footer h2 {
 }
 
 .service-detail-list {
-  padding: 0 40px 96px;
+  padding: 0 40px 163px;
 }
 
 .service-detail {
@@ -739,6 +739,10 @@ footer h2 {
 
 .service-detail:nth-child(2) {
   margin-bottom: 160px;
+}
+
+.service-detail:nth-child(3) {
+  margin-bottom: 115px;
 }
 
 .service-banner {
@@ -794,6 +798,20 @@ footer h2 {
   line-height: 1.95;
 }
 
+.service-detail:nth-child(3) .service-detail-content p {
+  font-size: 15.5px;
+  padding: 0 80px;
+  width: 620px;
+  line-height: 1.95;
+}
+
+.service-detail:nth-child(4) .service-detail-content p {
+  font-size: 15.5px;
+  padding: 0 80px;
+  width: 720px;
+  line-height: 1.95;
+}
+
 .service-banner-medical {
   background-image: linear-gradient(rgba(10, 37, 51, .42), rgba(10, 37, 51, .42)), url("assets/services-medical-banner.png");
 }
@@ -803,6 +821,20 @@ footer h2 {
   width: calc(100% - 161px);
   margin-left: auto;
   margin-right: auto;
+}
+
+.service-detail:nth-child(4) .service-banner-medical {
+  background-image: linear-gradient(rgba(10, 37, 51, .06), rgba(10, 37, 51, .06)), url("assets/services-medical-banner.png");
+  width: calc(100% - 161px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-detail:nth-child(4) .service-banner-medical h2 {
+  font-size: clamp(40px, 3.1vw, 67px);
+  letter-spacing: 0.04em;
+  transform: translateY(-28px);
+  font-weight: 550;
 }
 
 .service-detail:nth-child(2) .service-banner-medical h2 {
@@ -824,8 +856,8 @@ footer h2 {
 
 .service-detail-content {
   display: grid;
-  grid-template-columns: minmax(320px, .86fr) minmax(190px, 260px) minmax(190px, 280px);
-  column-gap: 34px;
+  grid-template-columns: minmax(320px, .87fr) minmax(210px, 280px) minmax(190px, 280px);
+  column-gap: 15px;
   row-gap: 72px;
   align-items: start;
   margin-top: 40px;
@@ -852,7 +884,7 @@ footer h2 {
   min-height: 22px;
   padding-left: 33px;
   color: #555a64;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.35;
 }
 
@@ -874,7 +906,11 @@ footer h2 {
 }
 
 .services-cta {
-  background: #367eac;
+  background: var(--blue);
+}
+
+.services-cta .container {
+  transform: translateY(10px);
 }
 
 .services-cta .container {
@@ -882,9 +918,9 @@ footer h2 {
 }
 
 .services-cta p {
-  max-width: 720px;
-  font-size: 20px;
-  line-height: 2.05;
+  max-width: 540px;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 footer {
@@ -896,7 +932,7 @@ footer {
   display: grid;
   grid-template-columns: 1.35fr 1.25fr .85fr 1.35fr;
   gap: 64px;
-  padding: 90px 199px 124px;
+  padding: 90px 90px 124px;
 }
 
 footer img {
@@ -960,7 +996,7 @@ footer a {
   gap: 20px;
   width: min(calc(100% - 80px), var(--max));
   margin: 0 auto;
-  padding: 22px 196px;
+  padding: 22px 90px;
   border-top: none;
   color: rgba(101, 101, 99);
   font-size: 15px;
@@ -1234,7 +1270,7 @@ footer a {
   .service-detail-content p,
   .service-checks li,
   .services-cta p {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .service-detail-list {
