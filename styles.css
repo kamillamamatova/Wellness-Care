@@ -1068,17 +1068,18 @@ footer h2 {
   margin: 0 0 28px;
   color: #50535c;
   font-family: 'Work Sans', sans-serif;
-  font-size: clamp(39px, 3.2vw, 62px);
+  font-size: clamp(40px, 3.3vw, 64px);
   font-weight: 580;
   line-height: 1.1;
 }
 
 .about-values-lead {
-  max-width: 980px;
+  max-width: 780px;
   margin: 0 auto;
   color: #555964;
-  font-size: 20px;
-  line-height: 1.75;
+  font-size: 15.5px;
+  line-height: 1.9;
+  font-weight: 400;
 }
 
 .about-values-grid {
