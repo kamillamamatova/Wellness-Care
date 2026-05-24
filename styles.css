@@ -996,7 +996,7 @@ footer h2 {
 }
 
 .about-expert {
-  padding: 156px 0 92px;
+  padding: 156px 0 48px;
 }
 
 .about-expert-grid {
@@ -1061,36 +1061,38 @@ footer h2 {
 }
 
 .about-values {
-  padding: 132px 0 150px;
+  padding: 84px 0 250px;
 }
 
 .about-values h2 {
   margin: 0 0 28px;
   color: #50535c;
   font-family: 'Work Sans', sans-serif;
-  font-size: clamp(45px, 3.6vw, 70px);
-  font-weight: 650;
+  font-size: clamp(40px, 3.3vw, 64px);
+  font-weight: 580;
   line-height: 1.1;
 }
 
 .about-values-lead {
-  max-width: 980px;
+  max-width: 780px;
   margin: 0 auto;
   color: #555964;
-  font-size: 20px;
-  line-height: 1.75;
+  font-size: 15.5px;
+  line-height: 1.9;
+  font-weight: 400;
 }
 
 .about-values-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 64px;
-  margin-top: 108px;
+  grid-template-columns: repeat(3, minmax(0, 362px));
+  justify-content: center;
+  gap: 48px;
+  margin-top: 78px;
 }
 
 .about-value-card {
-  min-height: 390px;
-  padding: 72px 56px 54px;
+  min-height: 292px;
+  padding: 46px 40px 38px;
   border: 1px solid rgba(219, 221, 238, .72);
   border-radius: 4px;
   background: #fff;
@@ -1100,17 +1102,17 @@ footer h2 {
 
 .about-value-card span {
   display: block;
-  margin-bottom: 66px;
+  margin-bottom: 40px;
   color: var(--blue);
-  font-size: 35px;
+  font-size: 26px;
   font-weight: 800;
   line-height: 1;
 }
 
 .about-value-card h3 {
-  margin: 0 0 20px;
+  margin: 0 0 14px;
   color: #4d515b;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -1118,12 +1120,16 @@ footer h2 {
 .about-value-card p {
   margin: 0;
   color: #555964;
-  font-size: 20px;
-  line-height: 1.8;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 .about-cta {
   background: var(--blue);
+}
+
+.about-cta .container {
+  transform: translateY(10px);
 }
 
 footer {
