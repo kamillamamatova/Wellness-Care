@@ -1128,6 +1128,10 @@ footer h2 {
   background: var(--blue);
 }
 
+.about-cta .container {
+  transform: translateY(10px);
+}
+
 footer {
   color: rgba(255, 255, 255, .28);
   background: #010929;
