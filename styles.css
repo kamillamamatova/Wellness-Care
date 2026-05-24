@@ -1026,7 +1026,7 @@ footer h2 {
 }
 
 .about-expert-copy {
-  transform: translate(-8px, 8px);
+  transform: translate(-8px, -38px);
 }
 
 .about-check-grid {
@@ -1053,11 +1053,11 @@ footer h2 {
 }
 
 .about-expert-copy p {
-  max-width: 420px;
-  margin: 0;
+  max-width: 270px;
+  margin: 0 0 0 auto;
   color: #555964;
-  font-size: 20px;
-  line-height: 1.95;
+  font-size: 15px;
+  line-height: 1.9;
 }
 
 .about-values {
