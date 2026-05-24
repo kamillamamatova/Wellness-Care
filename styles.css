@@ -1068,8 +1068,8 @@ footer h2 {
   margin: 0 0 28px;
   color: #50535c;
   font-family: 'Work Sans', sans-serif;
-  font-size: clamp(45px, 3.6vw, 70px);
-  font-weight: 650;
+  font-size: clamp(39px, 3.2vw, 62px);
+  font-weight: 580;
   line-height: 1.1;
 }
 
