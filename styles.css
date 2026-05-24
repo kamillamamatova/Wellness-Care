@@ -1084,14 +1084,15 @@ footer h2 {
 
 .about-values-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 64px;
-  margin-top: 108px;
+  grid-template-columns: repeat(3, minmax(0, 362px));
+  justify-content: center;
+  gap: 48px;
+  margin-top: 78px;
 }
 
 .about-value-card {
-  min-height: 390px;
-  padding: 72px 56px 54px;
+  min-height: 292px;
+  padding: 46px 40px 38px;
   border: 1px solid rgba(219, 221, 238, .72);
   border-radius: 4px;
   background: #fff;
@@ -1101,17 +1102,17 @@ footer h2 {
 
 .about-value-card span {
   display: block;
-  margin-bottom: 66px;
+  margin-bottom: 40px;
   color: var(--blue);
-  font-size: 35px;
+  font-size: 26px;
   font-weight: 800;
   line-height: 1;
 }
 
 .about-value-card h3 {
-  margin: 0 0 20px;
+  margin: 0 0 14px;
   color: #4d515b;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -1119,8 +1120,8 @@ footer h2 {
 .about-value-card p {
   margin: 0;
   color: #555964;
-  font-size: 20px;
-  line-height: 1.8;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 .about-cta {
