@@ -1015,7 +1015,7 @@ footer h2 {
 }
 
 .about-expert-copy h2 {
-  margin: 0 0 54px;
+  margin: 0 0 38px;
   color: #50535c;
   font-family: 'Work Sans', sans-serif;
   font-size: clamp(36px, 3.35vw, 62px);
@@ -1026,7 +1026,7 @@ footer h2 {
 }
 
 .about-expert-copy {
-  transform: translate(-8px, -38px);
+  transform: translate(-8px, -48px);
 }
 
 .about-check-grid {
@@ -1034,7 +1034,7 @@ footer h2 {
   grid-template-columns: repeat(2, minmax(230px, 1fr));
   gap: 48px 90px;
   max-width: 760px;
-  margin-bottom: 38px;
+  margin-bottom: 28px;
 }
 
 .about-expert-copy .service-checks {
