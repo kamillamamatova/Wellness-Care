@@ -1186,12 +1186,12 @@ footer h2 {
 }
 
 .contact-assessment {
-  padding: 104px 40px 116px;
+  padding: 104px 52px 116px;
   background: #fff;
 }
 
 .contact-assessment .container {
-  width: min(calc(100% - 132px), 1705px);
+  width: min(calc(100% - 144px), 1705px);
 }
 
 .contact-assessment-wrap {
@@ -1379,12 +1379,12 @@ footer h2 {
 
 @media (max-width: 1400px) {
   .contact-assessment {
-    padding-left: 26px;
-    padding-right: 26px;
+    padding-left: 34px;
+    padding-right: 34px;
   }
 
   .contact-assessment .container {
-    width: min(calc(100% - 80px), var(--max));
+    width: min(calc(100% - 84px), var(--max));
   }
 
   .contact-assessment-wrap {
