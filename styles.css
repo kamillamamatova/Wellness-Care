@@ -1209,9 +1209,9 @@ footer h2 {
 .contact-copy h2 {
   margin: 0 0 30px;
   color: #4c5059;
-  font-size: clamp(21px, 1.25vw, 25px);
-  font-weight: 700;
-  line-height: 1.2;
+  font-size: clamp(24px, 1.5vw, 30px);
+  font-weight: 600;
+  line-height: 1;
 }
 
 .contact-copy > p {
@@ -1954,7 +1954,7 @@ footer a {
   }
 
   .contact-copy h2 {
-    font-size: 29px;
+    font-size: 31px;
   }
 
   .contact-copy > p,
