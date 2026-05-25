@@ -1165,8 +1165,8 @@ footer h2 {
   position: relative;
   display: grid;
   place-items: center;
-  min-height: clamp(420px, 28.7vw, 585px);
-  padding: 155px 40px 88px;
+  min-height: clamp(406px, 27.8vw, 572px);
+  padding: 151px 40px 86px;
   color: #fff;
   background-color: #b9b9b9;
   background-image: url("assets/contact-hero.png");
@@ -1639,7 +1639,7 @@ footer a {
   }
 
   .contact-hero {
-    min-height: 520px;
+    min-height: 508px;
   }
 
   .contact-assessment {
@@ -1935,8 +1935,8 @@ footer a {
   }
 
   .contact-hero {
-    min-height: 430px;
-    padding: 140px 17px 70px;
+    min-height: 408px;
+    padding: 137px 17px 70px;
     background-position: 52% center;
   }
 
