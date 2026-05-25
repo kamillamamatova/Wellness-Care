@@ -1209,7 +1209,7 @@ footer h2 {
 .contact-copy h2 {
   margin: 0 0 30px;
   color: #4c5059;
-  font-size: clamp(28px, 1.6vw, 34px);
+  font-size: clamp(21px, 1.25vw, 25px);
   font-weight: 700;
   line-height: 1.2;
 }
@@ -1218,7 +1218,7 @@ footer h2 {
   max-width: 790px;
   margin: 0 0 53px;
   color: #585c66;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.8;
 }
 
@@ -1245,23 +1245,23 @@ footer h2 {
   display: grid;
   flex: 0 0 auto;
   place-items: center;
-  width: 68px;
-  height: 68px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   color: var(--blue);
   background: #f1f1f4;
 }
 
 .contact-icon svg {
-  width: 25px;
-  height: 25px;
+  width: 18px;
+  height: 18px;
   fill: currentColor;
 }
 
 .contact-detail h3 {
   margin: 0 0 7px;
   color: #4c5059;
-  font-size: 21px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -1269,7 +1269,7 @@ footer h2 {
 .contact-detail p {
   margin: 0;
   color: #555964;
-  font-size: 23px;
+  font-size: 16px;
   line-height: 1.45;
 }
 
@@ -1278,8 +1278,8 @@ footer h2 {
   align-items: center;
   gap: 23px;
   width: 100%;
-  min-height: 166px;
-  padding: 30px 34px;
+  min-height: 120px;
+  padding: 20px 24px;
   color: #fff;
   background: var(--blue);
 }
@@ -1288,16 +1288,16 @@ footer h2 {
   display: grid;
   flex: 0 0 auto;
   place-items: center;
-  width: 68px;
-  height: 68px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   color: var(--blue);
   background: #fff;
 }
 
 .professional-icon svg {
-  width: 27px;
-  height: 27px;
+  width: 20px;
+  height: 20px;
   fill: currentColor;
 }
 
@@ -1310,19 +1310,19 @@ footer h2 {
 
 .professional-callout strong {
   margin-bottom: 13px;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.01em;
 }
 
 .professional-callout b {
-  font-size: 31px;
+  font-size: 22px;
   font-weight: 800;
 }
 
 .contact-layout .contact-form {
-  min-height: 640px;
-  padding: 64px 64px 82px;
+  min-height: 500px;
+  padding: 44px 50px 56px;
   box-shadow: 0 80px 120px -40px rgba(0, 0, 0, .24);
 }
 
@@ -1331,16 +1331,16 @@ footer h2 {
   margin-bottom: 30px;
   color: #555964;
   background: #fbfbfc;
-  font-size: 23px;
+  font-size: 16px;
 }
 
 .contact-layout .contact-form input {
-  height: 64px;
+  height: 48px;
   padding: 0 18px;
 }
 
 .contact-layout .contact-form textarea {
-  height: 170px;
+  height: 126px;
   padding: 18px;
   margin-bottom: 28px;
 }
@@ -1352,19 +1352,19 @@ footer h2 {
 }
 
 .contact-layout .contact-form button {
-  min-height: 51px;
-  padding: 10px 30px;
-  font-size: 23px;
+  min-height: 38px;
+  padding: 8px 22px;
+  font-size: 16px;
   font-weight: 700;
   white-space: nowrap;
 }
 
 .contact-layout .form-actions span {
-  font-size: 23px;
+  font-size: 16px;
 }
 
 .contact-layout .form-actions strong {
-  font-size: 24px;
+  font-size: 17px;
 }
 
 .contact-cta {
