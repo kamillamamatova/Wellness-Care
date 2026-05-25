@@ -1180,9 +1180,9 @@ footer h2 {
   color: #fff;
   font-family: 'Work Sans', sans-serif;
   font-size: clamp(58px, 4.4vw, 88px);
-  font-weight: 600;
+  font-weight: 550;
   line-height: 1;
-  transform: translateY(19px);
+  transform: translateY(-37px);
 }
 
 .contact-assessment {
