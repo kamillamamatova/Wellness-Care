@@ -1186,7 +1186,7 @@ footer h2 {
 }
 
 .contact-assessment {
-  padding: 104px 52px 116px;
+  padding: 74px 52px 116px;
   background: #fff;
 }
 
@@ -1234,13 +1234,13 @@ footer h2 {
 
 .contact-detail-address {
   margin-left: 19px;
-  margin-bottom: 68px;
+  margin-bottom: 38px;
 }
 
 .contact-detail-grid {
   display: grid;
-  grid-template-columns: minmax(230px, .85fr) minmax(330px, 1.15fr);
-  gap: 28px 56px;
+  grid-template-columns: max-content minmax(330px, 1fr);
+  gap: 28px 28px;
   margin-left: 19px;
   margin-bottom: 48px;
 }
@@ -1265,7 +1265,7 @@ footer h2 {
 .contact-detail h3 {
   margin: 0 0 7px;
   color: #4c5059;
-  font-size: 16px;
+  font-size: 15.5px;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -1273,7 +1273,7 @@ footer h2 {
 .contact-detail p {
   margin: 0;
   color: #555964;
-  font-size: 16px;
+  font-size: 15.5px;
   line-height: 1.45;
 }
 
@@ -1647,7 +1647,7 @@ footer a {
   }
 
   .contact-assessment {
-    padding: 80px 0 90px;
+    padding: 58px 0 90px;
   }
 
   .contact-assessment-wrap {
@@ -1950,7 +1950,7 @@ footer a {
   }
 
   .contact-assessment {
-    padding: 64px 0 70px;
+    padding: 46px 0 70px;
   }
 
   .contact-assessment .container {
