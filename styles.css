@@ -1372,13 +1372,18 @@ footer h2 {
 }
 
 .contact-cta {
-  padding-top: 96px;
+  padding-top: 88px;
   padding-bottom: 150px;
   background: var(--blue);
 }
 
 .contact-cta .container {
-  transform: translateY(8px);
+  transform: translateY(38px);
+}
+
+.contact-cta h2 {
+  font-size: 31px;
+  letter-spacing: 0.01em;
 }
 
 @media (max-width: 1400px) {
