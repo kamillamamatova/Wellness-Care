@@ -615,7 +615,7 @@ footer h2 {
 .blue-cta p {
   margin: 0 0 21px;
   font-size: 15.5px;
-  line-height: 1.6;
+  line-height: 1.85;
   max-width: 560px;
 }
 
@@ -1384,6 +1384,11 @@ footer h2 {
 .contact-cta h2 {
   font-size: 31px;
   letter-spacing: 0.01em;
+}
+
+.contact-cta .contact-link {
+  margin-top: 6px;
+  margin-left: 4px;
 }
 
 @media (max-width: 1400px) {
