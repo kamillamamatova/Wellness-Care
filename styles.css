@@ -589,6 +589,29 @@ footer h2 {
   white-space: nowrap;
 }
 
+.contact-form button:disabled {
+  cursor: wait;
+  opacity: .7;
+}
+
+.form-status {
+  min-height: 24px;
+  margin: 18px 0 0;
+  color: #5f636d;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.form-status[data-state="success"] {
+  color: #176c83;
+  font-weight: 700;
+}
+
+.form-status[data-state="error"] {
+  color: #b3261e;
+  font-weight: 700;
+}
+
 .form-actions strong {
   color: var(--blue);
   font-size: 15px;

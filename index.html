@@ -66,29 +66,31 @@
             <p class="phone">Phone: </p>
             <p class="phone">Fax: </p>
           </div>
-          <form class="contact-form">
+          <form class="contact-form" data-contact-form>
+            <input type="hidden" name="source" value="homepage assessment form">
             <h3>Free Home Care Assessment</h3>
             <p class="form-title">Contact Form</p>
             <label>
               <span>Full name</span>
-              <input type="text" placeholder="Full name*" required>
+              <input type="text" name="fullName" placeholder="Full name*" autocomplete="name" required>
             </label>
             <label>
               <span>Active email</span>
-              <input type="email" placeholder="Active email*" required>
+              <input type="email" name="email" placeholder="Active email*" autocomplete="email" required>
             </label>
             <label>
               <span>Phone number</span>
-              <input type="tel" placeholder="Phone number*" required>
+              <input type="tel" name="phone" placeholder="Phone number*" autocomplete="tel" required>
             </label>
             <label>
               <span>Message</span>
-              <textarea placeholder="Message*" required></textarea>
+              <textarea name="message" placeholder="Message*" required></textarea>
             </label>
             <div class="form-actions">
               <button type="submit">Send Request</button>
               <span><strong>*</strong> Required Fields</span>
             </div>
+            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
           </form>
         </div>
       </section>
@@ -249,5 +251,6 @@
         <span>Powered by Quality Wellness Care</span>
       </div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
