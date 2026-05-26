@@ -1196,8 +1196,8 @@ footer h2 {
 
 .contact-assessment-wrap {
   display: grid;
-  grid-template-columns: minmax(500px, 1fr) minmax(520px, 760px);
-  gap: clamp(58px, 5.6vw, 114px);
+  grid-template-columns: minmax(570px, 1fr) minmax(520px, 650px);
+  gap: clamp(42px, 4.4vw, 84px);
   align-items: center;
 }
 
@@ -1220,6 +1220,10 @@ footer h2 {
   color: #585c66;
   font-size: 15px;
   line-height: 1.8;
+}
+
+.contact-copy > p strong {
+  font-weight: 600;
 }
 
 .contact-detail {
