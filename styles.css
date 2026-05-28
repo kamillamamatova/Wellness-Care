@@ -1719,12 +1719,26 @@ footer a {
   }
 
   .hero {
-    min-height: 720px;
+    min-height: 640px;
     height: auto;
   }
 
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(
+      90deg,
+      rgba(3, 7, 29, .64) 0%,
+      rgba(3, 7, 29, .46) 43%,
+      rgba(3, 7, 29, .1) 100%
+    );
+    pointer-events: none;
+  }
+
   .hero-image {
-    object-position: 66% top;
+    object-position: 58% top;
   }
 
   .topbar {
@@ -1734,8 +1748,9 @@ footer a {
   }
 
   .brand img {
-    width: 116px;
-    height: 116px;
+    width: 94px;
+    height: auto;
+    margin-left: 0;
   }
 
   .menu-button {
@@ -1760,15 +1775,16 @@ footer a {
   }
 
   .hero-content {
-    width: calc(100% - 34px);
+    width: min(100% - 34px, 360px);
     margin-left: 17px;
-    padding-top: 155px;
+    padding-top: 142px;
   }
 
   .hero h1 {
     max-width: 320px;
-    font-size: 38px;
+    font-size: 36px;
     line-height: 1.08;
+    letter-spacing: 0.04em;
   }
 
   .hero p,
@@ -1782,12 +1798,26 @@ footer a {
   }
 
   .hero p {
-    max-width: 320px;
+    max-width: 340px;
+    margin-bottom: 18px;
+    font-size: 17px;
+    line-height: 1.65;
   }
 
   .button,
   .contact-form button {
     font-size: 18px;
+  }
+
+  .button {
+    min-height: 44px;
+    margin-top: 8px;
+    padding: 7px 20px;
+  }
+
+  .socials {
+    gap: 17px;
+    margin-top: 14px;
   }
 
   .reason-grid,

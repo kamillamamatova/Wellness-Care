@@ -1,13 +1,19 @@
 const { createServer } = require('node:http');
 const { appendFile, mkdir, readFile, stat } = require('node:fs/promises');
+const { readFileSync } = require('node:fs');
 const path = require('node:path');
 const { randomUUID } = require('node:crypto');
+const nodemailer = require('nodemailer');
 
 const root = __dirname;
+loadEnvFile(path.join(root, '.env'));
+
 const dataDir = path.join(root, 'data');
 const submissionsFile = path.join(dataDir, 'submissions.jsonl');
 const host = process.env.HOST || '127.0.0.1';
 const port = Number(process.env.PORT || 3000);
+const emailTo = process.env.CONTACT_EMAIL_TO || 'contact@qualitywellnesscare.com';
+const emailFrom = process.env.CONTACT_EMAIL_FROM || process.env.SMTP_USER;
 
 const contentTypes = {
   '.css': 'text/css; charset=utf-8',
@@ -22,6 +28,35 @@ const contentTypes = {
   '.svg': 'image/svg+xml',
   '.webp': 'image/webp'
 };
+
+function loadEnvFile(filePath) {
+  try {
+    const lines = readFileSync(filePath, 'utf8').split(/\r?\n/);
+
+    lines.forEach((line) => {
+      const trimmed = line.trim();
+
+      if (!trimmed || trimmed.startsWith('#')) {
+        return;
+      }
+
+      const separatorIndex = trimmed.indexOf('=');
+
+      if (separatorIndex === -1) {
+        return;
+      }
+
+      const key = trimmed.slice(0, separatorIndex).trim();
+      const value = trimmed.slice(separatorIndex + 1).trim().replace(/^["']|["']$/g, '');
+
+      if (key && process.env[key] === undefined) {
+        process.env[key] = value;
+      }
+    });
+  } catch {
+    // A .env file is optional; production hosts usually provide env vars directly.
+  }
+}
 
 function sendJson(res, statusCode, payload) {
   res.writeHead(statusCode, {
@@ -57,6 +92,56 @@ function isValidEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
+function hasEmailConfig() {
+  return Boolean(process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS && emailFrom && emailTo);
+}
+
+function createTransport() {
+  return nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port: Number(process.env.SMTP_PORT || 587),
+    secure: process.env.SMTP_SECURE === 'true',
+    auth: {
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS
+    }
+  });
+}
+
+function formatSubmissionEmail(submission) {
+  return [
+    'New assisted care assessment request',
+    '',
+    `Name: ${submission.fullName}`,
+    `Email: ${submission.email}`,
+    `Phone: ${submission.phone}`,
+    `Source: ${submission.source}`,
+    `Submitted: ${submission.createdAt}`,
+    '',
+    'Message:',
+    submission.message
+  ].join('\n');
+}
+
+async function sendSubmissionEmail(submission) {
+  if (!hasEmailConfig()) {
+    console.warn('Email is not configured. Saved submission locally only.');
+    return false;
+  }
+
+  const transporter = createTransport();
+
+  await transporter.sendMail({
+    to: emailTo,
+    from: emailFrom,
+    replyTo: submission.email,
+    subject: `New assessment request from ${submission.fullName}`,
+    text: formatSubmissionEmail(submission)
+  });
+
+  return true;
+}
+
 async function handleAssessment(req, res) {
   try {
     const body = await readRequestBody(req);
@@ -85,10 +170,12 @@ async function handleAssessment(req, res) {
 
     await mkdir(dataDir, { recursive: true });
     await appendFile(submissionsFile, `${JSON.stringify(submission)}\n`, 'utf8');
+    const emailSent = await sendSubmissionEmail(submission);
 
     sendJson(res, 201, {
       ok: true,
       id: submission.id,
+      emailSent,
       message: 'Thank you. Your request was received.'
     });
   } catch (error) {
