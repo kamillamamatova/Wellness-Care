@@ -1,9 +1,9 @@
 :root {
-  --blue: #248bf3;
+  --blue: #0f6b3a;
   --dark: #03071d;
   --text: #555964;
   --heading: #464952;
-  --teal: #176c83;
+  --teal: #06401f;
   --max: 1600px;
 }
 
@@ -604,7 +604,7 @@ footer h2 {
 }
 
 .form-status[data-state="success"] {
-  color: #176c83;
+  color: var(--teal);
   font-weight: 700;
 }
 
@@ -786,7 +786,7 @@ footer h2 {
   position: relative;
   z-index: 1;
   margin: 0;
-  color: #7bc0e7;
+  color: var(--teal);
   text-align: center;
   font-family: 'Work Sans', sans-serif;
   font-size: clamp(40px, 3.25vw, 64px);
@@ -923,7 +923,7 @@ footer h2 {
   height: 17px;
   border-radius: 50%;
   color: #fff;
-  background: #378fea;
+  background: var(--blue);
   font-size: 12px;
   font-weight: 800;
   line-height: 1;
@@ -1461,7 +1461,7 @@ footer h2 {
 
 footer {
   color: rgba(255, 255, 255, .28);
-  background: #010929;
+  background: #01170a;
 }
 
 .footer-grid {
